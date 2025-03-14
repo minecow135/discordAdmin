@@ -1,0 +1,25 @@
+{
+  "name": "discordadmin-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -e ThisIsForManualRestartOnly",
+    "auto": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minecow135/discordAdmin.git"
+  },
+  "author": "mine_cow135",
+  "license": "GPL-3.0 license",
+  "bugs": {
+    "url": "https://github.com/minecow135/discordAdmin/issues"
+  },
+  "homepage": "https://github.com/minecow135/discordAdmin#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
